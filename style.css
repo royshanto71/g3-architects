@@ -1,8 +1,15 @@
+/* header styles */
+.header, .banner {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
 /* nav styles */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav-links {
     display: flex;
@@ -24,4 +31,37 @@
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
+}
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner styles */
+.banner {
+    max-width: 1440px;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.explore-button {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    width: 180px;
+    height: 64px;
+    border: none;
 }
