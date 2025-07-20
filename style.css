@@ -1,0 +1,27 @@
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+nav h3 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
