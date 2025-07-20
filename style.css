@@ -1,5 +1,5 @@
 /* header styles */
-.header, .banner {
+.header {
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -39,8 +39,9 @@
 /* banner styles */
 .banner {
     max-width: 1440px;
-    margin: 50px auto;
+    margin: 0 15rem 0 15rem;
     text-align: center;
+    align-items: center;
 }
 .banner-title {
     color: rgb(19, 19, 19);
@@ -64,4 +65,8 @@
     width: 180px;
     height: 64px;
     border: none;
+}
+.banner-image {
+    width: 100%;
+    margin-top: 1rem;
 }
