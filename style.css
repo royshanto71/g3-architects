@@ -1,24 +1,24 @@
 /* nav styles */
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul {
+.nav-links {
     display: flex;
     text-decoration: none;
 }
-nav ul li {
+.nav-item {
     list-style: none;
     margin: 0 15px;
 }
-nav h3 {
+.nav-brand {
     color: rgb(19, 19, 19);
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
 }
-nav ul li a {
+.nav-item a {
     text-decoration: none;
     color: rgb(66, 66, 66);
     font-family: Work Sans;
