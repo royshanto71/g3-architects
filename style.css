@@ -85,3 +85,30 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+.our-features-title {
+    letter-spacing: 0%;
+}
+.quick-list {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.features {
+    color: rgb(255, 144, 14);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.our-features-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
