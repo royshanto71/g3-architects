@@ -70,3 +70,18 @@
     width: 100%;
     margin-top: 1rem;
 }
+
+/* team section styles */
+.teams-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 76px;
+}
+.teams-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
