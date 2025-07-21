@@ -75,6 +75,15 @@
 }
 
 /* team section styles */
+
+main .teams-container {
+    margin: 85px 301px 130px 301px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .teams-container {
     max-width: 1440px;
     margin: 0 auto;
